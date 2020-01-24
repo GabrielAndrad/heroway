@@ -1,0 +1,10 @@
+.cabec {
+   
+    display:flex;
+    background-color: rgb(10, 29, 48);
+    justify-content: center;
+    color:white;
+    padding:20px;
+    
+
+}

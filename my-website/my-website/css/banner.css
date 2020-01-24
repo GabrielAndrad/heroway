@@ -1,0 +1,45 @@
+.banner {
+    width: 100%;
+    height: 400px;
+    background-color:#D40A44;
+    color:white;
+    display:flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items: center;
+    padding:10px;
+    
+}
+.stard i {
+    font-size:25px;
+    margin: 0 10px;
+}
+.stard {
+    display:flex;
+    height:20px;
+    align-items: center;
+    margin-bottom:30px;
+    justify-content: center;
+    flex-direction:row;
+}
+
+.bar{
+    background-color:white;
+    margin:0 10px;
+    width:80px;
+    height:2px;
+}
+.avatar-img {
+   width:50%;
+   height:50%;
+
+
+}
+
+.banner h1 {
+    margin:10px;
+}
+
+.banner h1 {
+    font-size:40px;
+}
