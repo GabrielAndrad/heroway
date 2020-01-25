@@ -3,6 +3,7 @@
 @import 'header.css';
 @import 'section.css';
 @import 'footer.css';
+@import 'responsive.css';
 
 body {
     margin: 0;

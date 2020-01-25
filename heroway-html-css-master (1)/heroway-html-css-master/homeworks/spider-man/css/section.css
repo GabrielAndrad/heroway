@@ -1,21 +1,21 @@
 .page {
-    margin: 36px auto;
-    width: 960px;
+    margin: 2em auto;
+    width: 100%;
 }
 .blog {
-    margin: 0 auto 53px;
-    width: 900px;
+    margin: 0 auto 3em;
+    width: 100%;
     overflow: auto;
 }
 .blog .main {
     float: left;
-    width: 566px;
+    width: 60%;
 }
 
 .blog .other {
     float: right;
-    width: 311px;
-    padding-left: 20px;
+    width: 30%;
+    padding-left: 1.2em;
 }
 
 .blog .other ul {
@@ -23,30 +23,30 @@
     padding: 0;
 }
 .blog .other ul li {
-    padding: 20px 0;
+    padding: 1.2em 0;
     margin: 5px 0;
     border-top: 1px solid #ccc;
 }
 .blog .other h3 {
-    margin-bottom: 20px;
+    margin-bottom: 1.2em;
 }
 .blog .other p {
-    margin-bottom: 20px;
+    margin-bottom: 1.2em;
 }
 
 .blog .main .headline h1 {
-    font-size: 24px;
-    margin-bottom: 20px;
+    font-size: 1.5em;
+    margin-bottom: 1.2em;
 }
 
 .blog .main .headline h3 {
-    font-size: 18px;
+    font-size: 1.1em;
     font-weight: 400;
-    margin-bottom: 20px;
+    margin-bottom: 1.2em;
 }
 .blog .main .author {
-    padding: 20px 0;
-    margin: 5px 0;
+    padding: 1.2em 0;
+    margin: 0.4em 0;
     border-top: 1px solid #ccc;
     border-bottom: 1px solid #ccc;
 }
@@ -58,11 +58,11 @@
     float: right;
 }
 .blog .main .article .image {
-    width: 300px;
+    width: 100%;
     height: auto;
 }
 
 .blog .main p {
-    padding: 10px 0 30px;
+    padding: 0.8em 0 2.em;
     margin: 0;
 }
