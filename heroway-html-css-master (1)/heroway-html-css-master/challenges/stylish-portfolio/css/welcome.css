@@ -1,0 +1,33 @@
+.welcome {
+    position: relative;
+    top:-100px;
+   
+}
+
+.welcome img {
+    height: 500px;
+    width:100%;
+    position: absolute;
+    left:0px;
+    top:0px;
+    z-index: -1;
+}
+
+.welcome-Text {
+    position:relative;
+    top:200px;
+    z-index: 1;
+    text-align: center;
+    width: 100%;
+
+}
+
+.button2{
+    background-color:blue;
+    border:none;
+    height:30px;
+    width:100px;
+    color:white;
+    margin:10px;
+    font-size: 8px;
+}

@@ -1,0 +1,48 @@
+.services {
+   background-color: rgb(3, 60, 247);
+    height: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.servTitle {
+    text-align: center;
+    color:white;
+}
+
+.servTitle h6 {
+    color:gold;
+}
+.services i {
+    border: 16px solid white;
+    border-radius: 100%;
+    background-color: white;
+    font-size: 20px;
+    width:20%;
+    
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    font-size: 10px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin:30px 20px;
+}
+
+.iconText {
+    margin:20px;
+    color:grey;
+}
+
+.iconText h1 {
+    margin:10px;
+    color:white;
+}
