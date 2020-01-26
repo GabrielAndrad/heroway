@@ -17,13 +17,9 @@
 .servTitle h6 {
     color:gold;
 }
-.services i {
-    border: 16px solid white;
-    border-radius: 100%;
-    background-color: white;
+.icons i {
     font-size: 20px;
-    width:20%;
-    
+
 }
 
 .icons {

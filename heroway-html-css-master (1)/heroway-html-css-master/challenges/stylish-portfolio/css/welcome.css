@@ -1,33 +1,30 @@
 .welcome {
     position: relative;
-    top:-100px;
-   
+    height: 500px;
+    background-image: 
+    url(/heroway-html-css-master/challenges/stylish-portfolio/img/bg-callout.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 -220px; 
 }
 
-.welcome img {
-    height: 500px;
-    width:100%;
-    position: absolute;
-    left:0px;
-    top:0px;
-    z-index: -1;
-}
 
 .welcome-Text {
     position:relative;
     top:200px;
-    z-index: 1;
     text-align: center;
-    width: 100%;
+    font-size: 1.5em;
+
+
 
 }
 
 .button2{
-    background-color:blue;
+    background-color:rgb(17, 128, 219);
     border:none;
     height:30px;
-    width:100px;
+    width:8%;
     color:white;
-    margin:10px;
+    margin:30px;
     font-size: 8px;
 }

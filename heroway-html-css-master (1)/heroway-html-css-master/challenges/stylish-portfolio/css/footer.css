@@ -1,0 +1,21 @@
+.footer {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.footerIcons {
+    margin:20px;
+}
+
+.icon1, .icon2, .icon3 {
+    margin:0 30px;
+}
+
+.footer h6 {
+    color:grey;
+}

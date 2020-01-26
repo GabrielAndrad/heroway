@@ -1,0 +1,72 @@
+.projects {
+    height:850px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projects h1,h6 {
+    display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.projects h6 {
+    margin-top: 50px;
+    color:gold;
+}
+
+.projects h1 {
+    margin-bottom:20px;
+}
+
+.projectsImg {
+    display:flex;
+    flex-wrap:wrap;
+    width:60%;
+    justify-content: center;
+    align-items: center;
+}
+.img1 {
+    height:50%;
+    width:50%;
+    background-image: url(/heroway-html-css-master/challenges/stylish-portfolio/img/portfolio-1.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.img2 {
+    height:300px;
+    width:50%;
+    background-image: url(/heroway-html-css-master/challenges/stylish-portfolio/img/portfolio-2.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img3 {
+    height:300px;
+    width:50%;
+    background-image: url(/heroway-html-css-master/challenges/stylish-portfolio/img/portfolio-3.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img4 {
+    height:300px;
+    width:50%;
+    background-image: url(/heroway-html-css-master/challenges/stylish-portfolio/img/portfolio-4.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
