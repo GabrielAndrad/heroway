@@ -10,6 +10,7 @@
 
 .footerIcons {
     margin:20px;
+    display: flex;
 }
 
 .icon1, .icon2, .icon3 {
@@ -18,4 +19,16 @@
 
 .footer h6 {
     color:grey;
+}
+
+ .ft {
+    background-color:#2C51FF ;
+    border-radius: 50%;
+    height: 55px;
+    width:55px; 
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:10px;
+    color:white;
 }

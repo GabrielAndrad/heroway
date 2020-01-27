@@ -1,6 +1,6 @@
 .services {
-   background-color: rgb(3, 60, 247);
-    height: 300px;
+   background-color:#2C51FF;
+    height: 250px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -12,6 +12,7 @@
 .servTitle {
     text-align: center;
     color:white;
+    margin-top: 30px;;
 }
 
 .servTitle h6 {
@@ -19,26 +20,50 @@
 }
 .icons i {
     font-size: 20px;
-
 }
 
 .icons {
     display: flex;
-    flex-direction: row;
     font-size: 10px;
-    height: 100px;
-    align-items: center;
-    justify-content: center;
+    height: 150px;
     text-align: center;
     margin:30px 20px;
 }
 
+.icons a {
+    height: 20px;
+    width:20px;
+}
+
+.backIcon {
+    background-color:#FFFFFF;
+    border-radius: 50%;
+    height: 55px;
+    width:55px; 
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
 .iconText {
-    margin:20px;
-    color:grey;
+    margin: 5px 15px;
+    color:#FFFFFF;
+}
+
+.iconText p {
+    opacity: 0.5;
 }
 
 .iconText h1 {
-    margin:10px;
+    margin-bottom:5px;
     color:white;
+}
+
+.responsive, .favorited, .redesigned, .question {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.favorited .iconText i {
+    font-size:10px;
 }
