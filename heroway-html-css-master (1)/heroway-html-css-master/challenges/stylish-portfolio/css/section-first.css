@@ -1,4 +1,4 @@
-.space {
+.section-first {
     height: 250px;
     display: flex;
     justify-content: center;
@@ -6,16 +6,16 @@
     flex-direction: column;
     background-color: #F8F9FA;
 }
-.text{
+.section-text{
     text-align: center;
     margin:10px;
 }
 
-.text h1{
+.section-text h1{
     font-size: 1.2em;
 }
 
-.text h4 {
+.section-text h4 {
     font-size: 0.6em;
     color:#9A9F96;
     margin:10px;
