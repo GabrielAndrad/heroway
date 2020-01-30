@@ -1,8 +1,7 @@
 .header{
     width: 100%;
     height: 500px;
-    background-image: url(/img/bg-masthead.jpg);
-    background-position:center;
+    background-image: url("/img/bg-masthead.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -38,6 +37,8 @@
 
  }
 
+ /* Responsive code */
+ 
  @media screen and (min-width:320px) and (max-width:600px){
      .title h1 {
          font-size:1.5em;
