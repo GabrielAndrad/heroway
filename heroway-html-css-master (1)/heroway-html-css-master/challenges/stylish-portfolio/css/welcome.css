@@ -2,7 +2,7 @@
     position: relative;
     height: 400px;
     background-image: 
-    url(/heroway-html-css-master/challenges/stylish-portfolio/img/bg-callout.jpg);
+    url(/img/bg-callout.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 0 -220px; 
@@ -20,4 +20,26 @@
     color:white;
     margin:20px;
     font-size: 8px;
+}
+
+@media screen and (max-width:600px){
+
+    .welcome {
+        background-position: center;
+        height:300px;
+    }
+}
+
+@media screen and (min-width:801px) and (max-width:960px){
+
+.welcome {
+    background-position: 0 -120px;
+}
+}
+
+@media screen and (min-width:601px) and (max-width: 800px){
+
+        .welcome {
+            background-position: 0 -70px;
+        }
 }

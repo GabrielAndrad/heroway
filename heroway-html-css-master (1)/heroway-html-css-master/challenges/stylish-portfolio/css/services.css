@@ -47,6 +47,8 @@
 .iconText {
     margin: 5px 15px;
     color:#FFFFFF;
+    width:100%;
+
 }
 
 .iconText p {
@@ -58,12 +60,45 @@
     color:white;
 }
 
-.responsive, .favorited, .redesigned, .question {
+.responsive,
+.favorited, 
+.redesigned, 
+.question {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+
 .favorited .iconText i {
     font-size:10px;
+}
+
+
+
+
+@media screen and (min-width:320px) and (max-width:600px){
+
+    .backIcon {
+        height:35px;
+        width:35px;
+    }
+
+    .iconText {
+        font-size:0.7em;
+    }
+
+    .favorited .iconText i {
+        font-size: 0.7em;
+    }
+
+    .icons i {
+        font-size: 1.6em;
+    }
+
+    .icons {
+        margin:0px 10px;
+    }
+
+    
 }

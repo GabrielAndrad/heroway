@@ -1,7 +1,7 @@
 .header{
     width: 100%;
     height: 500px;
-    background-image: url(/heroway-html-css-master/challenges/stylish-portfolio/img/bg-masthead.jpg);
+    background-image: url(/img/bg-masthead.jpg);
     background-position:center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -36,4 +36,24 @@
      text-align: center;
      font-size:0.75em;
 
+ }
+
+ @media screen and (min-width:320px) and (max-width:600px){
+     .title h1 {
+         font-size:1.5em;
+     }
+
+     .title h4 {
+         font-size: 0.6em;
+     }
+
+     .button {
+         font-size:0.5em;
+         height:20px;
+         width:80px;
+     }
+     .header {
+         height: 300px;
+         width:100%;
+     }
  }
